@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/29db9dcaa0.js" crossorigin="anonymous"></script>
+    <!-- tailwind css cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .sec-bg{
+            background: #FFF9F4;
+        }
+        .card-bg{
+            background-color: rgba(255, 220, 38, 0.5);
+        }
+        .title-font{
+            font-family:"ADLaM Display", serif;
+        }
+        .text-font{
+            font-family: "Sora", serif;
+        }
+    </style>
+</head>
+<body class="text-font">
+    <header class="">
+        <nav class="nav-bg">
+        <div class="flex justify-between items-center max-w-screen-xl px-5 lg:px-12 py-3 mx-auto">
+            <div class="lg:flex flex-1 justify-between hidden ">
+               <div class="flex items-center">
+                <img src="img/logo-header.png" alt="">
+                <h2>Browse<span class="text-yellow-400">4</span>Pets</h2>
+               </div>
+                <ul class="flex items-center gap-6 text-2xl">
+                    <li><a href="#">Find a pet</a></li>
+                    <li><a href="#">Breeds</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class=" hidden lg:flex flex-1 justify-end items-center gap-4 text-2xl">
+                <i class="fa-regular fa-bell"></i>                
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button class="border  border-yellow-400  rounded-lg py-2 px-6">Login</button>
+                <button class=" bg-yellow-300 rounded-lg py-2 px-6 bg">Register</button>
+            </div>
+            <div class="flex flex-1 items-center justify-between lg:hidden border">
+                <img src="img/logo-header.png" alt="">
+                <i class="fa-solid fa-bars"></i>
+        
+            </div>
+        </nav>    
+        </div>
+                    <!-- banner area start  -->
+
+        <div class="relative max-w-screen-xl px-5 lg:px-12 py-3 mx-auto -mt-16 lg:-mt-0">
+            <div class="lg:w-2/4 space-y-4 relative top-20 lg:absolute lg:top-18 z-10">
+                <h1 class="text-3xl lg:text-5xl lg:font-bold title-font lg:tracking-widest">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                <p>Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class=" bg-yellow-300 rounded-lg py-2 px-7 bg">Find a pet</button>
+            </div>
+        <img src="img/cat-big.png" alt="">
+    
+        </div>
+    </header>
+    <main>
+        <!-- Browse By Categories area start -->
+         <section class=" max-w-screen-xl px-5 lg:px-12 py-3 mx-auto">
+            <h3 class="text-2xl lg:text-4xl my-8 title-font">Browse By Categories</h3>
+            <div class="grid grid-cols-2 lg:grid-cols-6 gap-4 justify-center">
+                <div class="text-center card-bg p-7 space-y-3 rounded-lg">
+                    <img class="mx-auto bg-white p-6 rounded-full" src="img/dog-cartoon.png" alt="">
+                    <h3 class="title-font">Dog</h3>
+                    <p>333 items</p>
+                </div>
+                <div class="text-center card-bg p-7 space-y-3 rounded-lg">
+                    <img class="mx-auto bg-white p-6 rounded-full" src="img/fish-cartoon.png" alt="">
+                    <h3 class="title-font">Fish</h3>
+                    <p>13 items</p>
+                </div>
+                <div class="text-center card-bg p-7 space-y-3 rounded-lg">
+                    <img class="mx-auto bg-white p-6 rounded-full" src="img/cat-cartoon.png" alt="">
+                    <h3 class="title-font">Cat</h3>
+                    <p>3 items</p>
+                </div>
+                <div class="text-center card-bg p-7 space-y-3 rounded-lg">
+                    <img class="mx-auto bg-white p-6 rounded-full" src="img/bird-cartoon.png" alt="">
+                    <h3 class="title-font">Birds</h3>
+                    <p>23 items</p>
+                </div>
+                <div class="text-center card-bg p-7 space-y-3 rounded-lg">
+                    <img class="mx-auto bg-white p-6 rounded-full" src="img/Small-pet.png" alt="">
+                    <h3 class="title-font">Small pet</h3>
+                    <p>32 items</p>
+                </div>
+                <div class="text-center card-bg p-7 space-y-3 rounded-lg">
+                    <img class="mx-auto bg-white p-6 rounded-full" src="img/rabbit-cartoon.png" alt="">
+                    <h3 class="title-font">Dog</h3>
+                    <p>87 items</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- Trending Pet Products area start  -->
+
+         <section class="sec-bg py-42">
+            <div class="lg:flex gap-5 lg:justify-between max-w-screen-xl px-5 lg:px-12 py-3 mx-auto">
+                <div class="h-90 bg-[url('img/cute-pet-small.png')] card-bg bg-no-repeat bg-right-bottom  lg:w-2/6 rounded-lg ">
+                    <div class="w-4/5 space-y-4 pt-7 pl-5">
+                        <h3 class="text-2xl lg:text-4xl title-font">T-Shirt For Dogs</h3>
+                        <p>Stylish, comfortable, breathable, soft, durable.</p>
+                        <button class=" bg-white rounded-lg py-2 px-7 bg">Shop Now</button>
+                    </div>
+                </div>
+                <div class="mt-3 grid grid-cols-2 lg:grid-cols-3 gap-5 lg:w-4/6">
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/cat-cartoon.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"> </i>
+                            <span>4.9</span>
+                            <h3>Cat</h3>
+                            <p>$40.14</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/dog-cartoon.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>3.4</span>
+                            <h3>Dog</h3>
+                            <p>$15.90</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>4.9</span>
+                            <h3>Birds</h3>
+                            <p>$55.30</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/Small-pet.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>3.89</span>
+                            <h3>Sm Pet</h3>
+                            <p>$5.10</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/cat-cartoon.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>2.9</span>
+                            <h3>Cat</h3>
+                            <p>$65.90</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/fish-cartoon.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>5.00</span>
+                            <h3>Fish</h3>
+                            <p>$45.90</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/dog-cartoon.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>4.00</span>
+                            <h3>Dog</h3>
+                            <p>$75.90</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>3.9</span>
+                            <h3>Birds</h3>
+                            <p>$85.90</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center bg-white rounded-lg px-5 py-3 border border-gray-200 gap-5">
+                        <div><img class="sec-bg p-2" src="img/Small-pet.png" alt=""></div>
+                        <div class="font-medium space-y-1">
+                          <i class="fa-solid fa-star text-yellow-300"></i>
+                            <span>4.9</span>
+                            <h3>Sm PET</h3>
+                            <p>$95.90</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+    stroke-red-950
+    <footer>
+        <div class="lg:flex max-w-screen-xl px-5 lg:px-12 py-3 mx-auto">
+            <div class="h-90 bg-[url('img/cute-pet-small.png')] card-bg bg-no-repeat bg-right-bottom w-96 box-border p-4 rounded-lg ">
+                <div class="w-4/5 space-y-4 pt-7">
+                    <h3 class="text-2xl lg:text-4xl title-font">T-Shirt For Dogs</h3>
+                    <p>Stylish, comfortable, breathable, soft, durable.</p>
+                    <button class=" bg-white rounded-lg py-2 px-7 bg">Shop Now</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-5 w-3/4">
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white rounded-lg px-5 py-3 stroke-gray-400">
+                    <div><img class="sec-bg p-2" src="img/bird-cartoon.png" alt=""></div>
+                    <div class="font-bold space-y-1">
+                      <i class="fa-solid fa-star text-yellow-300"></i>
+                        <span>4.9</span>
+                        <h3>Birds</h3>
+                        <p>$45.90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
