@@ -107,9 +107,12 @@
 
          <!-- Trending Pet Products area start  -->
 
-         <section class="sec-bg py-42">
+         <section class="sec-bg py-10">
+            <div class="max-w-screen-xl px-5 lg:px-12 py-3 mx-auto">
+                <h3 class="text-2xl lg:text-4xl my-8 title-font">Trending Pet Products</h3>
+            </div>
             <div class="lg:flex gap-5 lg:justify-between max-w-screen-xl px-5 lg:px-12 py-3 mx-auto">
-                <div class="h-90 bg-[url('img/cute-pet-small.png')] card-bg bg-no-repeat bg-right-bottom  lg:w-2/6 rounded-lg ">
+                <div class="h-90 lg:w-2/6 bg-[url('img/cute-pet-small.png')] card-bg bg-no-repeat bg-right-bottom   rounded-lg ">
                     <div class="w-4/5 space-y-4 pt-7 pl-5">
                         <h3 class="text-2xl lg:text-4xl title-font">T-Shirt For Dogs</h3>
                         <p>Stylish, comfortable, breathable, soft, durable.</p>
@@ -208,17 +211,17 @@
          <!-- Everyday low Price area start  -->
           <section  class="max-w-screen-xl px-5 lg:px-12 py-3 mx-auto mb-24">
             <h3 class="text-2xl lg:text-4xl my-8 title-font">Everyday low Price </h3>
-            <div class="flex gap-5">
-                <div class="flex bg-red-500 pl-20 items-center lg:w-3/5 rounded-lg">
-                    <div>
+            <div class="lg:flex gap-5">
+                <div class="flex bg-linear-to-br from-[#F8CCFB] to-[#ACD2FD] pl-16 items-center  rounded-lg">
+                    <div class="space-y-4">
                         <p>Under Price</p>
-                        <h3 class="text-2xl lg:text-3xl title-font">Pet Grooming Mitt</h3>
+                        <h3 class="text-xl lg:text-2xl title-font">Pet Grooming Mitt</h3>
                         <h5  class="text-2xl lg:text-3xl title-font text-white">(Easy Hair Removal)</h5>
                         <h2 class="text-2xl lg:text-5xl title-font">$9.34</h2>
                     </div>
                     <img src="img/cute-dog-mid.png" alt="">
                 </div>
-                <div class="bg-[url('img/cute-pet-mid.png')] bg-no-repeat bg-right-bottom bg-red-700 lg:w-2/5 space-y-5 p-12 rounded-lg">
+                <div class="bg-[url('img/cute-pet-mid.png')] bg-no-repeat bg-right-bottom  lg:w-2/5 space-y-5 p-12 rounded-lg">
                     <h3  class="text-2xl lg:text-3xl title-font">T-Shirt for Dogs</h3>
                     <h2 class="text-2xl lg:text-5xl title-font">$9.34</h2>
                 </div>
@@ -226,22 +229,22 @@
           </section>
 
           <!-- Get Pawsome News! area start  -->
-        <section class="max-w-screen-xl px-5 lg:px-12 py-3 mx-auto -mb-60 sec-bg  relative">
-            <div class="lg:flex gap-5 rounded-lg p-9 ">
+        <section class="max-w-screen-xl mx-5 lg:mx-auto -mb-96 lg:-mb-60 sec-bg  relative ">
+            <div class="lg:flex gap-5 justify-center mx-auto rounded-lg py-9 text-center lg:text-start">
                 <div class="flex-1">
-                    <img src="img/cute-pet-mid.png" alt="">
+                    <img class="mx-auto" src="img/cute-pet-mid.png" alt="">
                 </div>
                 <div class="space-y-4 flex-1">
                     <h3 class="text-2xl lg:text-4xl my-8 title-font">Get Pawsome News!</h3>
                     <p class="font-medium">"Get the latest and best pet news, tips, and stories!"</p>
-                    <input class="w-96 h-10 bg-white p-3 rounded-md outline-none " type="email" placeholder="Enter your email"> <br>
+                    <input class="w-full lg:w-96 h-10 bg-white p-3 rounded-md outline-none text-center lg:text-start " type="email" placeholder="Enter your email"> <br>
                     <button class=" bg-yellow-300 rounded-lg py-2 px-7 bg">Subscribe</button>
                 </div>
             </div>
         </section>
     </main>
     
-    <footer class="card-bg pt-96 pb-14">
+    <footer class="card-bg lg:pt-96 pb-14">
         <div class="max-w-screen-xl px-5 lg:px-12 py-3 mx-auto lg:flex items-end justify-between ">
             <div class="lg:w-2/5">
                 <div class="flex gap-3 items-center space-y-5 ">
@@ -262,6 +265,13 @@
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-linkedin-in"></i>
                 <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div>
+            <div class="w-full h-screen bg-gradient-to-r from-black/60 to-transparent bg-[url('img/cute-pet-mid.png')] bg-cover bg-center bg-blend-overlay">
+                <div class="flex justify-center items-center h-full text-white">
+                    <h1 class="text-4xl font-bold">Hello, Tailwind!</h1>
+                </div>
             </div>
         </div>
     </footer>
