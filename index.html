@@ -29,26 +29,26 @@
 </head>
 <body class="text-font">
     <header class="">
-        <nav class="nav-bg">
-        <div class="flex justify-between items-center max-w-screen-xl px-5 lg:px-12 py-3 mx-auto">
-            <div class="lg:flex flex-1 justify-between hidden ">
-               <div class="flex items-center">
+        <nav class="nav-bg border lg:border-none">
+        <div class="lg:flex justify-between items-center max-w-screen-xl p-5 lg:px-12 mx-auto">
+            <div class="lg:flex justify-between hidden w-4/5">
+               <div class="flex flex-1 items-center">
                 <img src="img/logo-header.png" alt="">
-                <h2>Browse<span class="text-yellow-400">4</span>Pets</h2>
+                <h2 class="text-xl">Browse<span class="text-yellow-400">4</span>Pets</h2>
                </div>
-                <ul class="flex items-center gap-6 text-2xl">
+                <ul class="flex flex-1 items-center gap-6 text-xl">
                     <li><a href="#">Find a pet</a></li>
                     <li><a href="#">Breeds</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
-            <div class=" hidden lg:flex flex-1 justify-end items-center gap-4 text-2xl">
+            <div class=" hidden lg:flex justify-end items-center gap-2 text-xl">
                 <i class="fa-regular fa-bell"></i>                
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <button class="border  border-yellow-400  rounded-lg py-2 px-6">Login</button>
-                <button class=" bg-yellow-300 rounded-lg py-2 px-6 bg">Register</button>
+                <button class="border  border-yellow-400  rounded-lg py-1 px-6">Login</button>
+                <button class=" bg-yellow-300 rounded-lg py-1 px-6 bg">Register</button>
             </div>
-            <div class="flex flex-1 items-center justify-between lg:hidden">
+            <div class="flex items-center justify-between lg:hidden">
                 <img src="img/logo-header.png" alt="">
                 <i class="fa-solid fa-bars"></i>
         
@@ -212,24 +212,41 @@
           <section  class="max-w-screen-xl px-5 lg:px-12 py-3 mx-auto mb-24">
             <h3 class="text-2xl lg:text-4xl my-8 title-font">Everyday low Price </h3>
             <div class="lg:flex gap-5">
-                <div class="flex bg-linear-to-br from-[#F8CCFB] to-[#ACD2FD] pl-16 items-center  rounded-lg">
-                    <div class="space-y-4">
+                <div class="hidden lg:flex bg-linear-to-br from-[#F8CCFB] to-[#ACD2FD] pl-3  lg:pl-6  items-center  rounded-lg">
+                    <div class="space-y-3">
                         <p>Under Price</p>
                         <h3 class="text-xl lg:text-2xl title-font">Pet Grooming Mitt</h3>
-                        <h5  class="text-2xl lg:text-3xl title-font text-white">(Easy Hair Removal)</h5>
-                        <h2 class="text-2xl lg:text-5xl title-font">$9.34</h2>
+                        <h5 class="text-xl lg:text-2xl title-font text-white">(Easy Hair Removal)</h5>
+                        <h2 class="text-2xl lg:text-4xl title-font">$9.34</h2>
                     </div>
                     <img src="img/cute-dog-mid.png" alt="">
                 </div>
-                <div class="bg-[url('img/cute-pet-mid.png')] bg-no-repeat bg-right-bottom  lg:w-2/5 space-y-5 p-12 rounded-lg">
-                    <h3  class="text-2xl lg:text-3xl title-font">T-Shirt for Dogs</h3>
-                    <h2 class="text-2xl lg:text-5xl title-font">$9.34</h2>
+
+               <!-- for mobail divise  -->
+                <div class="lg:hidden space-y-5 mt-5 p-7 rounded-lg bg-linear-to-br from-[#F8CCFB] to-[#ACD2FD]">
+                    <h3  class="text-2xl lg:text-3xl title-font">Pet Grooming Mitt</h3>
+                    <h2 class="text-2xl lg:text-5xl title-font">$5.99</h2>
+                    <div>
+                    <img src="img/cute-dog-mid.png" alt="">
+                    </div>
                 </div>
+
+
+
+
+                <div class="lg:w-2/5 space-y-5  mt-5 lg:mt-0 pl-3 pt-3 lg:pl-6 lg:pt-6 rounded-lg bg-linear-to-br from-[#FFF9F4] to-[#F9DF8A]">
+                    <h3  class="text-2xl lg:text-3xl title-font">T-Shirt for Dogs</h3>
+                    <h2 class="text-2xl lg:text-5xl title-font text-yellow-300">$9.34</h2>
+                    <div class="bg-[url('img/cute-pet-mid.png')] bg-no-repeat bg-right-bottom h-96 ">
+                    
+                    </div>
+                </div>
+                
             </div>
           </section>
 
           <!-- Get Pawsome News! area start  -->
-        <section class="max-w-screen-xl mx-5 lg:mx-auto -mb-96 lg:-mb-60 sec-bg  relative ">
+        <section class="max-w-screen-xl mx-5 lg:mx-auto -mb-80 lg:-mb-60 sec-bg  relative ">
             <div class="lg:flex gap-5 justify-center mx-auto rounded-lg py-9 text-center lg:text-start">
                 <div class="flex-1">
                     <img class="mx-auto" src="img/cute-pet-mid.png" alt="">
@@ -244,14 +261,14 @@
         </section>
     </main>
     
-    <footer class="card-bg lg:pt-96 pb-14">
-        <div class="max-w-screen-xl px-5 lg:px-12 py-3 mx-auto lg:flex items-end justify-between ">
+    <footer class="card-bg pt-96 pb-14">
+        <div class="max-w-screen-xl px-5 lg:px-12 py-7 mx-auto lg:flex items-end justify-between ">
             <div class="lg:w-2/5">
                 <div class="flex gap-3 items-center space-y-5 ">
                     <img src="img/logo-footer.png" alt="">
                     <h3 class="text-2xl">Browse4Pets</h3>
                 </div>
-                <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                <p>"Browse4Pets offers pet adoption, care tips, reviews, and accessories online."</p>
             </div>
             <div class="lgw-1/5 space-y-5">
                 <p><a href="#">Find a pet</a></p>
@@ -259,19 +276,12 @@
                 <p><a href="#">Contact Us</a></p>
                 
             </div>
-            <div class="lg:w-1/5 space-y-5 ">
+            <div class="lg:w-1/5 space-x-5 ">
                 <p>Follow Us</p>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-linkedin-in"></i>
                 <i class="fa-brands fa-youtube"></i>
-            </div>
-        </div>
-        <div>
-            <div class="w-full h-screen bg-gradient-to-r from-black/60 to-transparent bg-[url('img/cute-pet-mid.png')] bg-cover bg-center bg-blend-overlay">
-                <div class="flex justify-center items-center h-full text-white">
-                    <h1 class="text-4xl font-bold">Hello, Tailwind!</h1>
-                </div>
             </div>
         </div>
     </footer>
